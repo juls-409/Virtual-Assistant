@@ -1,5 +1,6 @@
 # CS_Virtual_Assistant
-
+## About
+Dialogflow enables us to create a custom chatbot capable of understanding natural language from a user. From there, we can customize the bot and understand intents behind the users chat queries which we then can further process e.g. getting data about a students teacher from a database if the student asks for a list of their teachers.
 
 Virtual Assistant created by Joseph Gaede, Hasun Khan, Chad Manning, and Julian Villarreal
 
