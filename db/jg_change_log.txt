@@ -1,0 +1,69 @@
+11/6/2020
+research on gui frameworks/api's
+google searches:
+	- ui library for react
+	- ui library for c++
+	- ui framework for c++
+
+11/13/2020
+job changed to working on expert system
+goodle searches:
+	- expert system
+	  -looking at wikipedia for information
+	  -ai text book
+
+11/18/2020
+group decided that we dont need an expert system
+helping with database and back-end
+
+2/16/2021
+- created db version 1
+
+3/3/2021
+- updated db file
+  - added counselor and userinfo tables
+  - updated student table to not store passwords
+  - added fuction for adding new users
+- updated insert file
+  - test data for userinfo and counselor
+  - student test data updated to no longer have passwords
+- updated cleanup file
+  - now removes userinfo and counselor tables
+
+3/16/2021
+- updated spdb.sql
+  - removed professor name from CLASS table
+  - removed sid from student
+    - doesnt make sense to have id numbers of other students
+  - removed department info table
+    - currently not being used, might revisit in future
+  - added grades view
+    - shows grades from all classes in one spot
+  - added functions for adding new data to db:
+	addstudent, addprof, addcoun, addclass
+- EmbeddedSQL.java
+  - test environment for embedded sql statements
+  - menu of different commands for the user
+  - page 1 involves commands to display information
+  - page 2 involves commands to add/remove information
+    - removal functions not yet implemented
+
+4/1/2021
+- updated spdb.sql
+  - added four functions that allow removal of data from the db
+- updated EmbeddedSQL.java
+  - all of the queries are working now
+
+4/22/2021
+- updated spdb.sql
+  - added one function that allow for removing users from the database
+    - RemoveUser()
+- updated EmbeddedSQL.java
+  - added embedded sql commands to make use of RemoveUser and NewUser functions
+    - query 10 and 11 on the commands page 2
+
+4/23/2021
+- worked on expo poster
+- worked on video
+  - recorded lines for expo video
+

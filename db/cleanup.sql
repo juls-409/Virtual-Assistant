@@ -1,0 +1,12 @@
+drop table userinfo cascade;
+drop table student cascade;
+drop table professor cascade;
+drop table counselor cascade;
+drop table schedule cascade;
+drop table class cascade;
+drop function addprof(varchar, varchar, numeric, varchar) cascade;
+drop function newuser(varchar, varchar, varchar, numeric) cascade;
+drop function addcoun(varchar, varchar, numeric) cascade;
+drop function addstudent(varchar, varchar) cascade;
+drop function addclass(varchar, numeric, varchar, varchar, numeric, numeric, numeric) cascade;
+drop function GPA() cascade;
